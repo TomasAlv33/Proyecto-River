@@ -168,11 +168,11 @@
 @media screen and (max-width: 992px){
 
     .containerIndex{
-        width: 90%;
+        width: 100%;
     }
 
     .containerNoticias{
-        width: 90%;
+        width: 80%;
     }
  
     .card{
@@ -241,7 +241,7 @@
     }
 
    .carouselHistoria img{
-    max-height: 10rem ;
+    height: 15rem ;
 }
 
     .containerHistoria,.containerHistoria1,.textHistoria{
@@ -517,14 +517,13 @@
 }
 
 @media screen and (max-width: 992px){
-    .socios__form{
+    .socios__form ,.socios__preguntasFrecuentes , .socios,.socios__info--text,.socios__img img ,.socios__preguntasFrecuentes--accordion {
         width: 100%;
     }
 
-    .soccios__preguntasFrecuentes--accordion{
-        width: 90%;
+    .socios__info{
+        width: 80%;  
     }
-    
 }
 
 
