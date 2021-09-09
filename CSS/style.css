@@ -270,6 +270,10 @@
     width: 50%;
 }
 
+.monumental__texto--imagen img {
+    max-height: 20rem;
+}
+
 .monumental__texto--info{
     width: 45%;
     color: white;
