@@ -154,7 +154,7 @@
 
 .redesSociales{
     display: flex;
-    justify-content:flex-end;
+    justify-content:center;
     width: 100%;
     background-color: rgba(196, 188, 188, 0.329);
  }
@@ -177,6 +177,17 @@
  
     .card{
         width: 16rem;
+    }
+
+    .redesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       height: 50%;
+    }
+
+    .redesSociales a img {
+       width: 35%;
     }
 }
 
@@ -296,7 +307,7 @@
     width: 90%;
     display: flex;
     justify-content: space-around;
-    margin: 3rem 0;
+    margin: 3rem 0 3rem;
 }
 
 .imgMonumental{
@@ -331,6 +342,10 @@
 
 @media screen and (max-width: 992px) {
 
+    .monumental , .ubicacion{
+        width: 100%;
+    }
+
     .monumental__texto--info, .monumental__texto , .ubicacion__info{
         flex-direction: column;
     }
@@ -347,13 +362,16 @@
        max-height: 10rem;
    }
    
+   .ubicacion__info{
+       margin:0 0 3rem 3.8rem;
+       width: 100%;
+   }
 
     .ubicacion__info--img {
-        width: 95%;
+        width: 90%;
     }
 
     .ubicacion__info--img img{
-        width: 20rem;
         margin-bottom: 1rem;
     }
 
@@ -366,14 +384,8 @@
         margin-top: 2rem;
     }
 
-    .ubicacion{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ubicacion__info--map,
-    .ubicacion__info{
-        width: 95%;
+    .ubicacion__info--map{
+        width: 90%;
     }
 
     .ubicacionIframe{
@@ -437,15 +449,14 @@
         width: 90%;
     }
 
+    .entradas__info h2{
+        font-size: 2rem;
+    }
+
     .entradas__valor{
         max-width: 80%;
         display: flex;
         justify-content: center;
-    }
-
-    .tabla{
-        width: 80%;
-      
     }
 }
 
@@ -521,28 +532,35 @@
 
 
 footer{
-     background-color: rgb(248, 25, 25);  
-    width: 100%
+    background-color: rgb(248, 25, 25);  
+    width: 100%;
 }
 
 .footer__logo{
-    display: flex;
-    justify-content: end;
-    width: 25%;
+     display: flex;
+     justify-content: end;
+    width: 100%;
     align-items: center;
-}
+    }
 
-.footer__logo--img img{
+    .footer__logo--img img{
     width: 4rem;
     margin: 0rem 1rem 1rem 1rem;
-}
+    }
 
 @media screen and (max-width: 992px){
     footer{
         width: 100%;
     }
+    
 
-    .footer__logo--img a img{
+    .footer__logo{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__logo--img a img {
         width: 3rem;
     }
 }
