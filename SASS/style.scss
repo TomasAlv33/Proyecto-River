@@ -1,0 +1,29 @@
+
+@import 'bloque1';
+
+@import'variables';
+
+
+.subtituloPagina h1 {
+        color:$color-titulos;
+        font-size: 2rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid black;
+        width: 70%;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+}
+
+.subtituloPagina h2 {
+    color:$color-titulos;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    width: 70%;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }

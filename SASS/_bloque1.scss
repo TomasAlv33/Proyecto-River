@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, h1 ,h2, p{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{ 
+    justify-content:space-around;   
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+body{
+    background-color:whitesmoke ;
+}
+
+.color{
+    background-image: linear-gradient(to top  ,white,rgba(178, 34, 34, 0.534), white,rgba(178, 34, 34, 0.534));
+}
+
+.subtitulo{
+    color:black;
+    font-size: 2rem;
+    font-weight: 700px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.subtituloPagina{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.encabezadoPagina {
+    color: black;
+    font-style: italic;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    line-height: 1,5;
+}
