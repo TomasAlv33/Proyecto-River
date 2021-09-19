@@ -161,6 +161,9 @@
 .containerPublicidad{
     width: 80vw;
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .containerPublicidad .card img{
@@ -230,7 +233,6 @@
 
 /* UN POCO DE NUESTRA HISTORIA  */
 
-
 .historia{
     width: 100%;
     display: flex;
@@ -242,7 +244,7 @@
 .historia__texto{
     border: 5px solid black;
     width: 70%;
-    background-image: linear-gradient(to bottom , white ,rgba(178, 34, 34, 0.534), white);
+    background-color: rgba(255, 125, 125, 0.322);
     padding: 2rem;
     max-height: 40rem;
     overflow: hidden;
@@ -250,17 +252,26 @@
     margin-bottom: 3rem;  
 }
 
+.historia__texto--titulo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
 .historia__texto--padding{
     padding-bottom: 2rem;
 }
 
+
 .containerGaleria{
     width: 50%;
     margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: rgba(196, 188, 188, 0.329);
 }
 
 .carouselHistoria img{
-    max-height: 31rem ;
+    max-height: 28rem ;
     overflow: hidden ;
 }
 
