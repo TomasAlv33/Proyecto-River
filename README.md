@@ -5,4 +5,4 @@
 
 ### Acerca del proyecto:
 
-- Como ferviente hincha del club River Plate , no tuve mejor idea que dedicar mi proyecto a tal institución. Intente recrear la pagina original , pero agregandole detalles mios.
+- Como ferviente hincha del club River Plate , no tuve mejor idea que dedicar mi proyecto a tal institución deportiva. Intente recrear la pagina original , pero agregandole detalles mios.
