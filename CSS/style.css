@@ -208,10 +208,10 @@
         width: 16rem;
     }
 
-    .containerPublicidad {
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
+    .containerPublicidad .card-group{
+        display: flex ;
+        flex-direction: column ;
+        align-items: center;
     }
 
     .containerPublicidad .card img{
@@ -324,6 +324,12 @@
     background-color: rgba(0, 0, 0, 0.842);
 }
 
+.monumentalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .monumental__texto--imagen{
     width: 50%;
 }
@@ -396,11 +402,7 @@
     .monumental__texto--info, .monumental__texto , .ubicacion__info{
         flex-direction: column;
     }
-
-    .monumental__texto{
-        width: 90%;
-    }
-    
+  
    .monumental__texto--imagen{
        width: 20rem;
    }
@@ -410,11 +412,13 @@
    }
    
    .ubicacion__info{
-       margin:0 0 3rem 3.8rem;
        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
    }
 
-    .ubicacion__info--img {
+    .ubicacion__info--img,.ubicacion__info--map,.monumental__texto {
         width: 90%;
     }
 
@@ -422,24 +426,15 @@
         margin-bottom: 1rem;
     }
 
-    .monumental__texto--info{
+    .monumental__texto--info , .monumental__texto--info2{
         width: 90%;
         margin-top: 1rem;
     }
-    .monumental__texto--info2{
-        width: 90%;
-        margin-top: 2rem;
-    }
-
-    .ubicacion__info--map{
-        width: 90%;
-    }
-
+  
     .ubicacionIframe{
         margin-top: 2rem;
     }
 
-   
 }
 
 
